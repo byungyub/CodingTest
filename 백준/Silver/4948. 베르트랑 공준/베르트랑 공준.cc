@@ -2,6 +2,9 @@
 #include <vector>
 #include <algorithm>
 
+#define fastio cin.tie(0)->ios::sync_with_stdio(0); cout.tie(0); setvbuf(stdout, nullptr, _IOFBF, BUFSIZ);
+
+
 using namespace std;
 vector<int> sosus;
 
@@ -40,6 +43,7 @@ void PrintSosu(int start, int end)
 
 int main()
 {
+    fastio;
     Sosu();
     while(true)
     {
